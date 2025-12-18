@@ -33,7 +33,7 @@ class EntryViewModel(private val repositoryDataSiswa: RepositoryDataSiswa):
             if(sip.isSuccessful){
                 println("Sukses Tambah Data: ${sip.message()}")
             }else{
-                printIn("Gagal Tambah Data: ${sip.errorBody()}")
+                println("Gagal Tambah Data: ${sip.errorBody()}")
             }
         }
     }
