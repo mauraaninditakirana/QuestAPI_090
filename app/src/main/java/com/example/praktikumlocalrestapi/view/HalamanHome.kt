@@ -161,12 +161,10 @@ fun ItemSiswa(
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
     ) {
         Column(
-            modifier = Modifier
-                .padding(dimensionResource(id = R.dimen.padding_large))
+            modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_large))
         ) {
             Row(
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(dimensionResource(id = R.dimen.padding_small))
+                modifier = Modifier.fillMaxWidth()
             ) {
                 Text(
                     text = siswa.nama,
