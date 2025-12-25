@@ -1,7 +1,8 @@
+@file:OptIn(InternalSerializationApi::class)
 package com.example.praktikumlocalrestapi.viewmodel
 
-@file:OptIn(InternalSerializationApi::class)
 
+import android.annotation.SuppressLint
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
